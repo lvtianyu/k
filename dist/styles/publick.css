@@ -1,0 +1,42 @@
+@import './base.css';
+
+html,body{
+    height: 100%
+}
+
+
+/*自定义内容区*/
+.container-fluid{
+    width: 100%;
+    text-align: center;
+    background-color: #33d4cc;
+    background-image: linear-gradient(#33d4cc,#3bddcc);
+    border-top: 1px solid transparent
+}
+
+.container-custom{
+    width: 1000px;
+    height: 640px;
+    display: inline-block;
+}
+/*                   container end                */
+
+/* 自定义导航区 */
+.view-width {
+        width: 100%;
+    }
+    
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    height: 36px;
+    width: 154px;
+    line-height: 36px;
+    color: #fff;
+    background: url('../static/logo2.png') no-repeat ;
+    background-size: 100%;
+}
+/*                    nav end                   */

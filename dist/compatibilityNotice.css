@@ -1,0 +1,93 @@
+
+.container-fluid{
+    text-align: center;
+    overflow: hidden    
+}
+.container-fluid>div{
+    text-align: left;
+    color: #fff;
+    position: relative;
+}
+
+.container-fluid>div>div{
+    float: left;
+}
+
+/**/
+.describe{
+    width:760px;
+    margin-top: 126px;
+
+}
+.describe>table{
+    width:500px;
+}
+p{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+th{
+    width:137px;
+    height:136px;
+}
+th>img{
+    line-height: 136px;
+}
+h6{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 100
+}
+
+.describe>table th img:hover{
+    background-color: #3bdddd;
+}
+table th a{
+    display: inline-block;
+}
+/************************* describe end **********************/
+
+/**/
+.product{
+    margin-top: 126px;
+    text-align: center
+}
+.product div{
+    height:280px;
+    background: url('./static/WechatIMG23.jpeg') no-repeat;
+    background-size: 100%;
+}
+
+
+.product ul{
+    margin-top: 20px;
+    width:168px;
+    text-align: center
+}
+
+.product ul li{
+    width: 110px;
+    height:30px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 30px;
+    display: inline-block;
+    background:url('./static/we.png') no-repeat;
+}
+
+.product >div{
+    width:168px;
+    height:168px;
+    margin-top: 15px;
+    border:1px solid #fff
+}
+
+.footer{
+    clear: both;
+    font-size: 12px;
+    bottom: 20px;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 0;
+}

@@ -1,0 +1,97 @@
+
+
+/* 图片区域 */
+
+.not-found-picture{
+    width:100%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.first-child-picture img{
+    height: 264px;
+    margin-bottom: 23px;
+
+}
+.lasst-chlid-picture img{
+    height:76px;
+}
+/*            picture          */
+
+/* 字体 */
+p{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* 按钮 */
+
+.btn-custom-notice{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.btn-custom-notice li{
+    width:122px;
+    height:30px;
+    line-height: 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #17beac;
+    color: #fff;
+    float: left;
+}
+.btn-custom-notice .first-child-btn{
+    margin-right: 30px;
+}
+
+/*.active-btn{
+    background-color:rgba(256,256,256,.3);
+}*/
+
+.btn-custom-notice li:hover{
+    background-color:rgba(256,256,256,.3);
+}
+/*                 btn :end              */
+
+/*当页面小于h1000px时候进行的适配*/
+@media (max-width: 999px) {
+    .view-width {
+        padding:0;
+        width: 100%;
+    }
+    .container-custom{
+        width: 100%;
+        height: 6.40rem;
+    }
+    .navbar-brand{
+        height: .36rem;
+        width: 1.54rem;
+        line-height: .36rem;
+        padding:0;
+    }
+
+    .navbar{
+        min-height: .36rem;
+        line-height: .36rem;
+    }
+    .not-found-picture{
+        margin-top: 0.4rem;
+        margin-bottom: .25rem;
+
+    }
+    .not-found-picture li:first-child img{
+        height: 2.64rem;
+        margin-bottom: 0.23rem;
+
+    }
+    .not-found-picture li:last-child img{
+        height:.76rem;
+    }
+    p{
+        font-size: 0.2rem;
+    }
+
+    .btn-custom-notice li{
+        font-size: .16rem;
+    }
+}
